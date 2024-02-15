@@ -59,7 +59,27 @@ body {
     background-color: red; /* 赤色に設定 */
 }
 
-
-button {
+#roll-button {
     margin-top: 20px;
+    padding: 15px 30px;
+    font-size: 20px;
 }
+
+.btn--orange {
+    color: #fff;
+    background-color: #eb6100;
+    border-bottom: 5px solid #b84c00;
+}
+.btn--orange:active {
+    margin-top: 3px;
+    color: #fff;
+    background: #f56500;
+    border-bottom: 2px solid #b84c00;
+}
+.btn--shadow {
+    -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
+}
+.btn--radius {
+    border-radius: 100vh;
+ }
